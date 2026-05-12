@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang=" es">
+    <head>  
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reloj Digital | Portfolio</title>
+        <link rel="stylesheet" href="../../assets/css/variables.css">
+        <link rel="stylesheet" href="../../assets/css/global.css">
+        <link rel="stylesheet" href="../../assets/css/layout.css">
+        <link rel="stylesheet" href="../../assets/css/components.css">
+        
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="Logo">Portfolio</div>
+            <nav>
+                <a href="../../index.html">Inicio</a>
+                <a href="../../index.html#proyectos">Proyectos</a>
+                <a href="../../index.html#contacto">Contacto</a>
+            </nav>
+        </header>
+        <main class="project-page">
+            <section class="project-header">
+                <h1>Reloj Digital</h1>
+            </section>
+            <section class="project-content">
+                <div class="clock-card">
+                    <p id="dateText" class="date-text">Cargando fecha...</p>
+                    <h2 id="timeText" class="time-text">00:00:00</h2>
+                    <p id="formatText" class="format-text">Formato 24 Hrs</p>
+                    <button id="toggleFormatBtn">
+                        Cambiar a Formato 12 Hrs
+                    </button>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>&copy; 2026 Portfolio. Todos los derechos reservados. DOT-A10</p>
+        </footer>
+        <script src="./script.js"></script>
+    </body>
+</html>
