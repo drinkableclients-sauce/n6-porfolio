@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas | N6 Portfolio</title>
+
+    <link rel="stylesheet" href="../../assets/css/variables.css">
+    <link rel="stylesheet" href="../../assets/css/global.css">
+    <link rel="stylesheet" href="../../assets/css/layout.css">
+    <link rel="stylesheet" href="../../assets/css/components.css">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">N6 Portfolio</div>
+
+        <nav>
+            <a href="../../index.html">Inicio</a>
+            <a href="../../index.html#proyectos">Proyectos</a>
+            <a href="../../index.html#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="project-page">
+
+        <section class="project-header">
+            <h1>Notas</h1>
+            <p>Aplicación simple para crear, guardar y eliminar notas.</p>
+        </section>
+
+        <section class="notes-app">
+
+            <form id="noteForm" class="note-form">
+                <input 
+                    type="text" 
+                    id="noteTitle" 
+                    placeholder="Título de la nota"
+                    autocomplete="off"
+                >
+
+                <textarea 
+                    id="noteContent" 
+                    placeholder="Escribe tu nota..."
+                ></textarea>
+
+                <button type="submit">
+                    Guardar nota
+                </button>
+            </form>
+
+            <section class="notes-section">
+                <h2>Mis notas</h2>
+
+                <div id="notesList" class="notes-list"></div>
+            </section>
+
+        </section>
+
+    </main>
+
+    <footer class="footer" id="contacto">
+        <p>© 2026 N6 Portfolio</p>
+    </footer>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
